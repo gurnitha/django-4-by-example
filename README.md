@@ -106,3 +106,22 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: NOTE
 
         Sukses membuat proyek django pertama :)
+
+
+#### 1.4 Menerapkan migrasi database awal
+
+        :: Aktivitas:
+
+        1. Menjalankan perintah migrasi
+        
+        (venv3942) hp@ING:Django4ByExample ~
+        > python manage.py makemigrations
+        >  python manage.py migrate
+
+        :: Daftar file yang berubah:
+
+        modified:   README.md
+
+        :: NOTE
+
+        Sukses menjalankan migrasi :)
