@@ -125,3 +125,26 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: NOTE
 
         Sukses menjalankan migrasi :)
+
+
+#### 1.5 Menjalankan lokal server 
+
+        :: Aktivitas:
+
+        1. Menjalankan lokal server
+        
+        (venv3942) hp@ING:Django4ByExample ~
+        > python manage.py runserver
+
+        2. Melihat tampilan proyek pada browser
+
+        http://127.0.0.1:8000/
+
+
+        :: Daftar file yang berubah:
+
+        modified:   README.md
+
+        :: NOTE
+
+        Django proyek suskses dijalankan :)
