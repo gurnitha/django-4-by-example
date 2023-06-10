@@ -594,3 +594,6 @@ Github: https://github.com/gurnitha/django-4-by-example
         new file:   01_blog/blog/urls.py
         modified:   01_blog/mysite/urls.py
         modified:   README.md
+
+
+#### 1.11 Membuat templates untuk views
