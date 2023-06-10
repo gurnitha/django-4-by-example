@@ -196,12 +196,25 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   README.md
 
 
-
 #### 1.7.2 Membuat model data blog - Part 2: Menambahkan kolom datetime
 
         :: Aktivitas:
 
         1. Menambahkan kolom datetime pada model Post
+
+        modified:   01_blog/blog/models.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/models.py
+        modified:   README.md
+
+
+#### 1.7.3 Membuat model data blog - Part 3: Menentukan urutan sortir default
+
+        :: Aktivitas:
+
+        1. Menentukan urutan sortir default
 
         modified:   01_blog/blog/models.py
 
