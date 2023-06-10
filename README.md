@@ -681,3 +681,20 @@ Github: https://github.com/gurnitha/django-4-by-example
         NOTE:
 
         Sukses display post detail.
+
+
+#### 1.11.7 Setup dan loading static files
+
+        :: Aktivitas:
+
+        1. Membuat static direktori dan files
+        2. Membuat path untuk static files
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/mysite/settings.py
+        modified:   README.md
+
+        NOTE:
+
+        Sukses loading static file.
