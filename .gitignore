@@ -1,7 +1,7 @@
 # MY GITIGNORE
 _docs
 venv3942
-
+static
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
