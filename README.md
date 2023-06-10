@@ -182,4 +182,18 @@ Github: https://github.com/gurnitha/django-4-by-example
         1. Modifikasi file README.md
 
 
+#### 1.7.1 Membuat model data blog - Part 1: Membuat model Post
+
+        :: Aktivitas:
+
+        1. Membuat model Post
+
+        modified:   01_blog/blog/models.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/models.py
+        modified:   README.md
+
+
 
