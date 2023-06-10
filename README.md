@@ -8,14 +8,14 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 #### 01.1 Memodifikasi file README.md
 
-        Aktivitas:
+        :: Aktivitas:
 
         1. Membuat repositori pada Github
         2. Meng-clone repositori dari Github
         3. Memodifikasi file .gitignore
         4. Memodifikasi file README.md
 
-        Daftar file yang berubah:
+        :: Daftar file yang berubah:
 
         modified:   .gitignore
         modified:   README.md
@@ -23,18 +23,18 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 ## 1. MEMBUAT APLIKASI BLOG
 
-        Aktivitas:
+        :: Aktivitas:
 
         1. Memodifikasi file README.md
 
-        Daftar file yang berubah:
+        :: Daftar file yang berubah:
 
         modified:   README.md
 
 
 #### 1.1 Membuat Python virtual environment
 
-        Aktivitas:
+        :: Aktivitas:
 
         1. Memeriksa versi python, pip dan virtualenv
 
@@ -46,7 +46,7 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         > python -m venv venv3942
 
-        Daftar file yang berubah:
+        :: Daftar file yang berubah:
 
         modified:   README.md
 
@@ -55,6 +55,30 @@ Github: https://github.com/gurnitha/django-4-by-example
         venv3942 tidak dicatat di dalam git karena
         dalam .gitignore file telah dibuat perintah
         agar venv3942 tidak dicatat dalam git.
-        
+
+
+#### 1.2 Menginstal Django versi 4.2
+
+        :: Aktivitas:
+
+        1. Mengaktifkan venv3942
+        > venv3942\Scripts\activate
+        (venv3942) hp@ING:Django4ByExample ~
+
+        2. Menginstal django versi 4.2
+
+        (venv3942) hp@ING:Django4ByExample ~
+        > pip install django==4.2.*
+
+        3. Memeriksa file yang terinstall
+        > pip list
+
+        4. Membuat requirements.txt file
+        > pip freeze > requirements.txt
+
+        :: Daftar file yang berubah:
+
+        modified:   README.md
+        new file:   requirements.txt
 
 
