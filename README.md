@@ -407,3 +407,19 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: Daftar file yang berubah:
 
         modified:   README.md
+
+
+#### 1.8.2 Situs administrasi Django
+
+        :: Aktivitas:
+
+        1. Menjalankan server
+        > python manage.py runserver
+
+        2. Login
+        http://127.0.0.1:8000/admin/
+
+        :: Daftar file yang berubah:
+
+        modified:   README.md
+
