@@ -175,4 +175,11 @@ Github: https://github.com/gurnitha/django-4-by-example
         Sukses membuat aplikasi baru :)
 
 
+#### 1.7 Membuat model data blog
+
+        :: Aktivitas:
+
+        1. Modifikasi file README.md
+
+
 
