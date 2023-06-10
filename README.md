@@ -361,5 +361,4 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   README.md
 
 
-
-
+#### 1.8. Membuat situs administrasi untuk model
