@@ -305,3 +305,16 @@ Github: https://github.com/gurnitha/django-4-by-example
         # :: Checking Status's names
         >>> Post.Status.names
         ['DRAFT', 'PUBLISHED']
+
+
+#### 1.7.7 Membuat model data blog - Part 7: Menambahkan many-to-one hubungan
+
+        :: Aktivitas:
+
+        1. Menambahkan kolom author pada Post model
+        modified:   01_blog/blog/models.py
+        
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/models.py
+        modified:   README.md
