@@ -647,3 +647,18 @@ Github: https://github.com/gurnitha/django-4-by-example
         
         modified:   01_blog/mysite/settings.py
         modified:   README.md
+
+
+#### 1.11.5 Mengakses aplikasi
+
+        :: Aktivitas:
+
+        1. Menjalankan server
+        > python manage.py runserver
+
+        2. Buka browser 
+        > http://127.0.0.1:8000/blog/
+
+        :: Daftar file yang berubah:
+        
+        modified:   README.md
