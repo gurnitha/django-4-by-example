@@ -423,3 +423,17 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         modified:   README.md
 
+
+#### 1.8.3 Menambahkan model ke situs administrasi
+
+        :: Aktivitas:
+
+        1. Register Post model pada blog/admin.py
+        modified:   01_blog/blog/admin.py
+
+        2. Membuat first post dari admin panel
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/admin.py
+        modified:   README.md
