@@ -222,6 +222,21 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         modified:   01_blog/blog/models.py
         modified:   README.md
+        modified:   README.md
+
+
+#### 1.7.4 Membuat model data blog - Part 4: Menambahkan indeks basis data
+
+        :: Aktivitas:
+
+        1. Menentukan urutan sortir default
+
+        modified:   01_blog/blog/models.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/models.py
+        modified:   README.md
 
 
 
