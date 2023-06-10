@@ -437,3 +437,19 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         modified:   01_blog/blog/admin.py
         modified:   README.md
+
+
+#### 1.8.4 Menyesuaikan cara model ditampilkan
+
+        :: Aktivitas:
+
+        1. Memodifikasi admin.py
+        modified:   01_blog/blog/admin.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/admin.py
+        modified:   README.md
+
+
+
