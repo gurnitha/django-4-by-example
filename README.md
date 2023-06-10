@@ -453,3 +453,89 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 
 #### 1.9 Bekerja dengan QuerySets dan manajer
+
+
+#### 1.9.1 CRUD objects
+
+        :: Aktivitas:
+
+        1. Create objects
+        > python manage.py shell
+        ...
+        >>>
+        >>> # :: Mengimport User model
+        >>> from django.contrib.auth.models import User
+        >>>
+        >>> # :: Mengimport Post model
+        >>> from blog.models import Post
+        >>>
+        >>> # :: Mendefinisikan user
+        >>> user = User.objects.get(username='admin')
+        >>>
+        >>> # :: Membuat post
+        >>> post = Post(title='Another post',
+        ...             slug='another-post',
+        ...             body='Post body.',
+        ...             author=user)
+        >>> post.save()
+
+        2. Update objects
+
+        # :: Updating objects
+        
+        >>> post.title = 'New title'
+        >>> post.save()
+
+        3. Retrieving objects
+
+        # :: Retrieving objects
+        >>> all_posts = Post.objects.all()
+        >>> Post.objects.all()
+        <QuerySet [<Post: New title>, <Post: Django 4 By Example>, <Post: Siapa Antonio Mele?>]>
+        >>>
+
+        4. Using the filter() method
+
+        # :: Using the filter() method
+        >>> Post.objects.filter(publish__year=2023)
+        <QuerySet [<Post: New title>, <Post: Django 4 By Example>, <Post: Siapa Antonio Mele?>]>
+
+        >>> Post.objects.filter(publish__year=2023, author__username='admin')
+        <QuerySet [<Post: New title>, <Post: Django 4 By Example>, <Post: Siapa Antonio Mele?>]>
+        
+        # :: Using \
+        >>> Post.objects.filter(publish__year=2023) \
+        ...             .filter(author__username='admin')
+        <QuerySet [<Post: New title>, <Post: Django 4 By Example>, <Post: Siapa Antonio Mele?>]>
+
+
+        5. Using exclude()
+
+        # :: Using exclude()
+        >>> Post.objects.filter(publish__year=2023) \
+        ...             .exclude(title__startswith='Mel')
+        <QuerySet [<Post: New title>, <Post: Django 4 By Example>, <Post: Siapa Antonio Mele?>]>
+        
+        6. Using order_by()
+        
+        # :: Using order_by() <<-- LIFO
+        >>> Post.objects.order_by('title')
+        <QuerySet [<Post: Django 4 By Example>, <Post: New title>, <Post: Siapa Antonio Mele?>]>
+
+        # :: Using order_by() <<-- FIFO
+        >>> Post.objects.order_by('-title')
+        <QuerySet [<Post: Siapa Antonio Mele?>, <Post: New title>, <Post: Django 4 By Example>]>
+
+        7. Deleting objects
+
+        # :: Deleting objects
+        >>> post = Post.objects.get(id=2)
+        >>> post.delete()
+        (1, {'blog.Post': 1})
+
+        >>> Post.objects.all()
+        <QuerySet [<Post: New title>, <Post: Siapa Antonio Mele?>]>
+
+        :: Daftar file yang berubah:
+
+        modified:   README.md
