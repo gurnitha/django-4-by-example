@@ -32,3 +32,29 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   README.md
 
 
+#### 1.1 Membuat Python virtual environment
+
+        Aktivitas:
+
+        1. Memeriksa versi python, pip dan virtualenv
+
+        > python --version
+        > pip --version
+        > virtualenv --version
+
+        2. Membuat virtual environment dengan nama venv3942
+
+        > python -m venv venv3942
+
+        Daftar file yang berubah:
+
+        modified:   README.md
+
+        NOTE:
+
+        venv3942 tidak dicatat di dalam git karena
+        dalam .gitignore file telah dibuat perintah
+        agar venv3942 tidak dicatat dalam git.
+        
+
+
