@@ -597,3 +597,17 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 
 #### 1.11 Membuat templates untuk views
+
+
+#### 1.11.1 Membuat direktori dan files
+
+        :: Aktivitas:
+
+        1. Membuat direktori dan files
+
+        :: Daftar file yang berubah:
+
+        new file:   01_blog/blog/templates/blog/base.html
+        new file:   01_blog/blog/templates/blog/post/detail.html
+        new file:   01_blog/blog/templates/blog/post/list.html
+        modified:   README.md
