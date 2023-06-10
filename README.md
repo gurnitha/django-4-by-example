@@ -6,7 +6,6 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 ## 0. SETUP
 
-
 #### 01.1 Memodifikasi file README.md
 
         Aktivitas:
@@ -16,7 +15,20 @@ Github: https://github.com/gurnitha/django-4-by-example
         3. Memodifikasi file .gitignore
         4. Memodifikasi file README.md
 
-        Dafter file yang berubah:
+        Daftar file yang berubah:
 
         modified:   .gitignore
         modified:   README.md
+
+
+## 1. MEMBUAT APLIKASI BLOG
+
+        Aktivitas:
+
+        1. Memodifikasi file README.md
+
+        Daftar file yang berubah:
+
+        modified:   README.md
+
+
