@@ -555,3 +555,16 @@ Github: https://github.com/gurnitha/django-4-by-example
 
 
 #### 1.10 Building list and detail views
+
+
+#### 1.10.1 Membuat list and detail views
+
+        :: Aktivitas:
+
+        1. Membuat post_list dan post_detail view
+        modified:   01_blog/blog/views.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/views.py
+        modified:   README.md
