@@ -611,3 +611,15 @@ Github: https://github.com/gurnitha/django-4-by-example
         new file:   01_blog/blog/templates/blog/post/detail.html
         new file:   01_blog/blog/templates/blog/post/list.html
         modified:   README.md
+
+
+#### 1.11.2 Membuat base template
+
+        :: Aktivitas:
+
+        1. Membuat base template
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/blog/templates/blog/base.html
+        modified:   README.md
