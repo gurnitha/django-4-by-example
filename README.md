@@ -662,3 +662,22 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: Daftar file yang berubah:
         
         modified:   README.md
+
+
+#### 1.11.6 Membuat template untuk post detail
+
+        :: Aktivitas:
+
+        1. Membuat template untuk post detail
+
+        2. Buka browser 
+        > http://127.0.0.1:8000/blog/1/
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/blog/templates/blog/post/detail.html
+        modified:   README.md
+
+        NOTE:
+
+        Sukses display post detail.
