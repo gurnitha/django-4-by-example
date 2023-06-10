@@ -568,3 +568,16 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         modified:   01_blog/blog/views.py
         modified:   README.md
+
+
+#### 1.10.2 Menggunakan get_object_or_404 shortcut
+
+        :: Aktivitas:
+
+        1. Memodifikasi post_detail view menggunakan get_object_or_404 shortcut
+        modified:   01_blog/blog/views.py
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/views.py
+        modified:   README.md
