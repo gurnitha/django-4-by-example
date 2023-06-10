@@ -539,3 +539,16 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: Daftar file yang berubah:
 
         modified:   README.md
+
+
+#### 1.9.2 Membuat manajer model
+
+        :: Aktivitas:
+
+        1. Membuat class PublishedManager
+        modified:   01_blog/blog/models.py
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/blog/models.py
+        modified:   README.md
