@@ -452,4 +452,4 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   README.md
 
 
-
+#### 1.9 Bekerja dengan QuerySets dan manajer
