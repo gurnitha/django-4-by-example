@@ -148,3 +148,31 @@ Github: https://github.com/gurnitha/django-4-by-example
         :: NOTE
 
         Django proyek suskses dijalankan :)
+
+
+#### 1.6 Membuat aplikasi
+
+        :: Aktivitas:
+
+        1. Membuat aplikasi
+        
+        (venv3942) hp@ING:Django4ByExample ~
+        > python manage.py startapp blog
+
+        :: Daftar file yang berubah:
+
+        new file:   01_blog/blog/__init__.py
+        new file:   01_blog/blog/admin.py
+        new file:   01_blog/blog/apps.py
+        new file:   01_blog/blog/migrations/__init__.py
+        new file:   01_blog/blog/models.py
+        new file:   01_blog/blog/tests.py
+        new file:   01_blog/blog/views.py
+        modified:   README.md
+
+        :: NOTE
+
+        Sukses membuat aplikasi baru :)
+
+
+
