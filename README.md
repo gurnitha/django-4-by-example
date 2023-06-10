@@ -635,3 +635,15 @@ Github: https://github.com/gurnitha/django-4-by-example
         
         modified:   01_blog/blog/templates/blog/post/list.html
         modified:   README.md
+
+
+#### 1.11.4 Mengaktifkan Django templates
+
+        :: Aktivitas:
+
+        1. Mengaktifkan Django templates
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/mysite/settings.py
+        modified:   README.md
