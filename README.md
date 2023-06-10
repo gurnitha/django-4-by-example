@@ -581,3 +581,16 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         modified:   01_blog/blog/views.py
         modified:   README.md
+
+
+#### 1.10.3 Menambahkan URL patterns for your views
+
+        :: Aktivitas:
+
+        1. Membuat URL patterns
+
+        :: Daftar file yang berubah:
+
+        new file:   01_blog/blog/urls.py
+        modified:   01_blog/mysite/urls.py
+        modified:   README.md
