@@ -549,6 +549,9 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   01_blog/blog/models.py
 
         :: Daftar file yang berubah:
-        
+
         modified:   01_blog/blog/models.py
         modified:   README.md
+
+
+#### 1.10 Building list and detail views
