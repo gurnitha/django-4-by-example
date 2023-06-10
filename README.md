@@ -267,4 +267,41 @@ Github: https://github.com/gurnitha/django-4-by-example
         modified:   README.md
 
 
+#### 1.7.6 Membuat model data blog - Part 6: Mengaktifkan aplikasi
 
+        :: Aktivitas:
+
+        1. Menambahkan aplikasi blog pada mysite/settings.py
+        modified:   01_blog/mysite/settings.py
+
+        2. Menjalankan migrasi
+        new file:   01_blog/blog/migrations/0001_initial.py
+
+        :: Daftar file yang berubah:
+
+        new file:   01_blog/blog/migrations/0001_initial.py
+        modified:   01_blog/mysite/settings.py
+        modified:   README.md
+
+        NOTE:
+
+        :: Evaluating enumeration class Status:
+
+        # :: Import Post model from blog
+        >>> from blog.models import Post
+
+        # :: Checking value-label pairs in sub class Status
+        >>> Post.Status.choices
+        [('DF', 'Draft'), ('PB', 'Published')]        
+
+        # :: Checking Status's lebels
+        >>> Post.Status.labels
+        ['Draft', 'Published']
+
+        # :: Checking Status's values
+        >>> Post.Status.values
+        ['DF', 'PB']
+
+        # :: Checking Status's names
+        >>> Post.Status.names
+        ['DRAFT', 'PUBLISHED']
