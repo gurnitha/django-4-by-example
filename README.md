@@ -623,3 +623,15 @@ Github: https://github.com/gurnitha/django-4-by-example
         
         modified:   01_blog/blog/templates/blog/base.html
         modified:   README.md
+
+
+#### 1.11.3 Membuat post list template
+
+        :: Aktivitas:
+
+        1. Membuat post list template
+
+        :: Daftar file yang berubah:
+        
+        modified:   01_blog/blog/templates/blog/post/list.html
+        modified:   README.md
