@@ -313,8 +313,53 @@ Github: https://github.com/gurnitha/django-4-by-example
 
         1. Menambahkan kolom author pada Post model
         modified:   01_blog/blog/models.py
-        
+
         :: Daftar file yang berubah:
 
         modified:   01_blog/blog/models.py
         modified:   README.md
+
+
+#### 1.7.8 Membuat model data blog - Part 8: Membuat dan menerapkan migrasi
+
+        :: Aktivitas:
+
+        1. Membuat migratsi
+        > python manage.py makemigrations blog
+        Migrations for 'blog':
+          blog\migrations\0001_initial.py
+            - Create model Post
+
+        2. Memeriksi hasil migrasi
+        > python manage.py sqlmigrate blog 0001
+
+        BEGIN;
+        --
+        -- Create model Post
+        --
+        CREATE TABLE "blog_post" (
+                "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, 
+                "title" varchar(250) NOT NULL, 
+                "slug" varchar(250) NOT NULL, 
+                "body" text NOT NULL, 
+                "publish" datetime NOT NULL, "created" datetime NOT NULL, 
+                "updated" datetime NOT NULL, "status" varchar(2) NOT NULL, 
+                "author_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
+
+        CREATE INDEX "blog_post_slug_b95473f2" ON "blog_post" ("slug");
+        CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+        CREATE INDEX "blog_post_publish_bb7600_idx" ON "blog_post" ("publish" DESC);
+        COMMIT;
+
+        3. Menerapkan migrasi
+        > python manage.py migrate blog 0001
+
+
+        :: Daftar file yang berubah:
+
+        modified:   01_blog/blog/migrations/0001_initial.py
+        modified:   README.md
+
+
+
+
