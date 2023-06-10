@@ -82,3 +82,27 @@ Github: https://github.com/gurnitha/django-4-by-example
         new file:   requirements.txt
 
 
+#### 1.3 Memembuat Proyek Pertama Django
+
+        :: Aktivitas:
+
+        1. Mengaktifkan venv3942
+        > venv3942\Scripts\activate
+        (venv3942) hp@ING:Django4ByExample ~
+
+        2. Membuat proyek django
+        > django-admin startproject mysite .
+
+        :: Daftar file yang berubah:
+
+        new file:   01_blog/manage.py
+        new file:   01_blog/mysite/__init__.py
+        new file:   01_blog/mysite/asgi.py
+        new file:   01_blog/mysite/settings.py
+        new file:   01_blog/mysite/urls.py
+        new file:   01_blog/mysite/wsgi.py
+        modified:   README.md
+
+        :: NOTE
+
+        Sukses membuat proyek django pertama :)
